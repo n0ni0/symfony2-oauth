@@ -9,12 +9,12 @@ a:link {
     text-decoration: none;
 }
 
-.login {
+.box {
     margin-top: 40px;
     background-color: #b1c5de;
 }
 
-.login-button {
+.box-button {
     margin-top: 12px;
     margin-bottom: 12px;
 }
@@ -23,6 +23,6 @@ a:link {
     margin-top: 12px;
 }
 
-.form-signin-heading {
+.form-heading {
     text-align: center;
 }
