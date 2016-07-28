@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block title %} {% endblock %}
+
+{% block body %}
+    <div class="box container col-md-4 col-xs-8">
+        <h2 class="form-heading">
+            <i class="fa fa-thumbs-up">{{ 'registration.confirmed'|trans({'%username%': user.username}) }}</i>
+        </h2>
+        <div>
+            <a href="{{ path('homepage') }}" class="box-button btn btn-lg btn-primary center-block">Go main page</a>
+        </div>
+    </div>
+{% endblock %}
+
+
